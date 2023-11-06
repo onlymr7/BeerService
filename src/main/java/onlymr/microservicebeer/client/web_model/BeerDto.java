@@ -1,4 +1,4 @@
-package web_model;
+package onlymr.microservicebeer.client.web_model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

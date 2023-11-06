@@ -1,4 +1,4 @@
-package web_model;
+package onlymr.microservicebeer.client.web_model;
 
 
 import org.springframework.data.domain.PageImpl;

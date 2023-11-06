@@ -1,9 +1,9 @@
-package web.controller;
+package onlymr.microservicebeer.client.web_controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import web_model.BeerDto;
+import onlymr.microservicebeer.client.web_model.BeerDto;
 
 import java.util.UUID;
 
