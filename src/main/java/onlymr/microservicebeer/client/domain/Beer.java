@@ -1,4 +1,4 @@
-package domain;
+package onlymr.microservicebeer.client.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
