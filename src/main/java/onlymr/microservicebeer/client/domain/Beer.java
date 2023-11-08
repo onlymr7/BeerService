@@ -16,7 +16,6 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder
 @Entity
-
 public class Beer {
 
     @Id
