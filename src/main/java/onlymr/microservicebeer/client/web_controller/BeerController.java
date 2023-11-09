@@ -21,14 +21,14 @@ public class BeerController {
     }
 
     @PostMapping
-    public ResponseEntity saveBeer(@RequestBody BeerDto beerDto) {
+    public ResponseEntity saveBeer(@RequestBody @Validated BeerDto beerDto) {
 
         //Todo Impl
         return new ResponseEntity(HttpStatus.CREATED);
     }
 
 
-    public ResponseEntity updateBeer (@PathVariable("beerId") UUID beerId, @RequestBody BeerDto beerDto){
+    public ResponseEntity updateBeer (@PathVariable("beerId") UUID beerId, @RequestBody  @Validated BeerDto beerDto){
 
         //To do Impl
         return new ResponseEntity (HttpStatus.NO_CONTENT);

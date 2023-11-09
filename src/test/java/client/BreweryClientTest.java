@@ -1,14 +1,11 @@
 package client;
-
 import onlymr.microservicebeer.client.client.BreweryClient;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 import onlymr.microservicebeer.client.web_model.BeerDto;
-
 import java.util.UUID;
-
+import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 @SpringBootTest
 class BreweryClientTest {
