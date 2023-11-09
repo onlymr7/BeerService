@@ -1,4 +1,4 @@
-package onlymr.microservicebeer.client.web_model;
+package web.web_model;
 
 
 import org.springframework.data.domain.PageImpl;
@@ -14,4 +14,5 @@ public class BeerPagedList extends PageImpl<BeerDto> {
     public BeerPagedList(List<BeerDto> content) {
         super(content);
     }
+
 }

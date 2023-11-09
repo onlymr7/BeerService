@@ -1,11 +1,11 @@
-package onlymr.microservicebeer.client.web_controller;
+package web.web_controller;
 
-import onlymr.microservicebeer.client.web_model.BeerDto;
-import org.antlr.v4.runtime.misc.NotNull;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import web.web_model.BeerDto;
 
 import java.util.UUID;
 @Validated
