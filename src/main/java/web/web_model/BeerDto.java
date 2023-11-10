@@ -38,9 +38,7 @@ public class BeerDto {
 
     @NotNull
     private BeerStyleEnum beerStyle;
-    enum BeerStyleEnum {
 
-    }
 
     @Positive
     @NotNull
